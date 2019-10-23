@@ -7,8 +7,7 @@
     "start": "webpack-dev-server",
     "dll": "webpack --config webpack.dll.config.js",
     "scss": "node-sass --watch app.scss -o css",
-    "build:dev": "webpack",
-    "build:production": "cross-env NODE_ENV=production webpack"
+    "build": "webpack"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

@@ -34,7 +34,7 @@ module.exports = [{
           {
             loader: 'file-loader',
             options: {
-              name: 'bundle-parkland.css',
+              name: 'bundle.css',
             },
           },
           { loader: 'extract-loader' },
